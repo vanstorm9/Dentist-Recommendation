@@ -11,13 +11,14 @@ def home():
     return render_template('index.html')  # render a template
 
 
-@app.route('/termsService',methods=['POST','GET'])
-def termsService():
+@app.route('/dentistRecommend',methods=['POST','GET'])
+def dentistRecommend():
 
+  
     topNRankNum = 5
     splitNum = 300
     contractDir = './company0/'
-
+    
     if request.method == 'POST':
         result = request.form
         if result['top'].isdigit():
@@ -46,7 +47,7 @@ def termsService():
     resText,resRank, mainContract = textFreqCal(topNRankNum,splitNum,contractDir)
 
 
-    return render_template('termsOfService.html', **locals())
+    return render_template('dentistRecommend.html', **locals())
 
 
 # start the server with the 'run()' method
