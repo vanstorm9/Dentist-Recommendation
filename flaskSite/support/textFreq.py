@@ -43,14 +43,24 @@ def vocabExtender(vocList):
   resStr = ""
   if 'unitedhealthcare' in vocList:
     resStr += "united healthcare "
+   
   return resStr
 
+def vocabExtenderList(vocList):
+  resStr = ""
+  for tmpEle in vocList:
+    if tmpEle == 'crowns':
+      resStr += "crown"
+    if tmpEle == 'dental implants':
+      resStr += "implant"
+      resStr += "dental implant"
+   
+  return resStr
 
 def sentiment_analyzer_scores(sentence):
   analyser = SentimentIntensityAnalyzer()
   score = analyser.polarity_scores(sentence)
   return score
-
 
 
 def recommendDoctor(searchQuery,topNNum):
@@ -77,12 +87,14 @@ def recommendDoctor(searchQuery,topNNum):
     resScore = []
 
     for i in range(0,len(doctorMainAr)):
+        treatStr, treatAr = parseStrList(doctorMainAr[i][1])
         insureStr, insureAr = parseStrList(doctorMainAr[i][2])
         langStr, langAr = parseStrList(doctorMainAr[i][4])
 
         doctorStr = doctorMainAr[i][0] + ' ' + doctorMainAr[i][1] + ' ' + doctorMainAr[i][2] + ' ' + insureStr + ' ' + doctorMainAr[i][4] + ' ' + langStr + ' '
 
         doctorStr += vocabExtender(insureAr)
+        doctorStr += vocabExtenderList(treatAr)
 
         doctorVec = removeStopWords([removeStem(doctorStr.lower())])
 
@@ -97,15 +109,14 @@ def recommendDoctor(searchQuery,topNNum):
 
         # Preform cosine simularity
         simRes = calcCosSim(customerVec,doctorVec)
-        
+
         if isinstance(doctorMainAr[i][6], str):
           emotionRating = sentiment_analyzer_scores(doctorMainAr[i][6])
-          simRes += (emotionRating['pos'] - emotionRating['neg']) 
-        
+          simRes += (emotionRating['pos']*0.3 - emotionRating['neg']) 
+
 
         # Appending results
         resScore.append(simRes)
-
 
 
 

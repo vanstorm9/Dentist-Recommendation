@@ -15,18 +15,22 @@ def home():
 def dentistRecommend():
 
     searchQuery = ''
+    resAr = []
+    topNRankNum = 20
+ 
     if request.method == 'POST':
         #searchQuery = request.args.get('search',None)
         searchQuery = request.form['search']
         print(searchQuery)
+        resAr = recommendDoctor(searchQuery,topNRankNum)
 
 
-    topNRankNum = 100
+    
 
 
 
 
-    resAr = recommendDoctor(searchQuery,topNRankNum)
+    
 
     return render_template('dentistRecommend.html', **locals())
 
