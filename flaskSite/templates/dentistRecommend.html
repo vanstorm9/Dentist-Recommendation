@@ -64,12 +64,12 @@
         {% for spec,treatment,insurance,address in resAr %}
 
             <table style='border: 1px solid black; padding:10px; width:100%'>
-              <tr>
-                <td>Title: {{ spec.capitalize()  }}</td>
+              <tr >
+                <td style="width:400px;padding:10px; ">Title: {{ spec.capitalize()  }}</td>
                 <td>Specializes in: {{ treatment.capitalize()  }}</td>
               </tr>
-              <tr>
-                <td>Covers: {{ insurance.capitalize()  }}</td>
+              <tr >
+                <td style="width:400px;padding:10px; ">Covers: {{ insurance.capitalize()  }}</td>
                 <td>Office Location: {{ address.capitalize()  }} </td>
               </tr>
             </table>
