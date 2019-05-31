@@ -13,6 +13,9 @@ import heapq
 doctorData = './data/data_hack.csv'
 
 
+# Parse arrays
+
+
 def removeStopWords(wordList):
     return [word for word in wordList if word not in stopwords.words('english')]
 
@@ -28,6 +31,19 @@ def removeStem(sentence):
     for w in words:
         tmpStr += ps.stem(w) + ' '
     return tmpStr
+
+
+def parseStrList(inputStr):
+  resAr = inputStr.split('|')
+  resStr = ' '.join(resAr)
+
+  return resStr, resAr
+
+def vocabExtender(vocList):
+    resStr = ""
+    if 'unitedhealthcare' in vocList:
+      resStr += "united healthcare "
+    return resStr
 
 
 
@@ -48,7 +64,11 @@ def recommendDoctor(searchQuery,topNNum):
     #resPara = []
 
     for i in range(0,len(doctorMainAr)):
-        doctorStr = doctorMainAr[i][0] + ' ' + doctorMainAr[i][1] + ' ' + doctorMainAr[i][2]
+        insureStr, insureAr = parseStrList(doctorMainAr[i][2])
+    
+        doctorStr = doctorMainAr[i][0] + ' ' + doctorMainAr[i][1] + ' ' + doctorMainAr[i][2] + ' '
+        doctorStr += vocabExtender(insureAr)
+
         doctorVec = removeStopWords([removeStem(doctorStr.lower())])
         
         # Prepare to doctor vector to combine vector
