@@ -1,0 +1,77 @@
+spec,dental clinic,treatment,insurance
+Endodontist,"1355 15th St, Fort Lee, NJ 07024",root canal,healthfirst
+Endodontist,"2999 Princeton Pike #4, Lawrenceville, NJ 08648",root canal,unitedhealthcare
+Endodontist,"1357 15th St, Fort Lee, NJ 07024",root canal,healthfirst
+Endodontist,"12 Roszel Rd, Princeton, NJ 08540",root canal,unitedhealthcare
+Endodontist,"1359 15th St, Fort Lee, NJ 07024",root canal,healthfirst
+Endodontist,"1354 15th St, Fort Lee, NJ 07024",root canal,metroplus
+Endodontist,"2999 Princeton Pike # 4, Lawrenceville, NJ 08648",root canal,metroplus
+Endodontist,"1356 15th St, Fort Lee, NJ 07024",root canal,metroplus
+Endodontist,"515 Madison Ave #3303, New York, NY 10022",root canal,metroplus
+Endodontist,"601 Ewing St, Princeton, NJ 08540",root canal,metroplus
+Oral surgery specialist,"17 S Warren St, Dover, NJ 07801",cleft palate surgery,healthfirst
+Oral surgery specialist,"720 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions,healthfirst
+Oral surgery specialist,"1 Bay Ave, Montclair, NJ 07042",corrective jaw surgery,healthfirst
+Oral surgery specialist,"361 NJ-31 #701, Flemington, NJ 08822",cleft lip,healthfirst
+Oral surgery specialist,"18 S Warren St, Dover, NJ 07801",cleft palate surgery,unitedhealthcare
+Oral surgery specialist,"721 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions,unitedhealthcare
+Oral surgery specialist,"2 Bay Ave, Montclair, NJ 07042",corrective jaw surgery,unitedhealthcare
+Oral surgery specialist,"362 NJ-31 #701, Flemington, NJ 08822",cleft lip,metroplus
+Oral surgery specialist,"19 S Warren St, Dover, NJ 07801",cleft palate surgery,metroplus
+Oral surgery specialist,"722 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions,metroplus
+Oral surgery specialist,"3 Bay Ave, Montclair, NJ 07042",corrective jaw surgery,metroplus
+Oral surgery specialist,"363 NJ-31 #701, Flemington, NJ 08822",cleft lip,metroplus
+Orthodontist,"40th St #105, New York, NY 10016",teeth alignment,healthfirst
+Orthodontist,"319 US-130 #14, East Windsor, NJ 08520",teeth alignment,unitedhealthcare
+Orthodontist,"42nd St #105, New York, NY 10016",teeth alignment,healthfirst
+Orthodontist,"43rd St #105, New York, NY 10016",teeth alignment,unitedhealthcare
+Orthodontist,"44th St #105, New York, NY 10016",teeth alignment,healthfirst
+Orthodontist,"37th St #105, New York, NY 10016",teeth alignment,metroplus
+Orthodontist,"38th St #105, New York, NY 10016",teeth alignment,metroplus
+Orthodontist,"2 Tree Farm Rd Suite B-200, Pennington, NJ 08534",teeth alignment,metroplus
+Orthodontist,"40th St #105, New York, NY 10016",teeth alignment,metroplus
+Orthodontist,"41st St #105, New York, NY 10016",teeth alignment,metroplus
+Orthodontist,"1140 US-130 #6, Robbinsville Twp, NJ 08691",teeth alignment,metroplus
+Pediatric Dentist,"1355 15th St, Fort Lee, NJ 07024",braces,healthfirst
+Pediatric Dentist,"1820 Corlies Ave Ste 8, Neptune City, NJ 07753",headgear,healthfirst
+Pediatric Dentist,"890 Mountain Ave Suite 310, New Providence, NJ 07974",expanders,healthfirst
+Pediatric Dentist,"501 Springfield Ave, Berkeley Heights, NJ 07922",palatal,healthfirst
+Pediatric Dentist,"4 Atno Ave, Morristown, NJ 07960",clear aligners,healthfirst
+Pediatric Dentist,"1356 15th St, Fort Lee, NJ 07024",braces,unitedhealthcare
+Pediatric Dentist,"1821 Corlies Ave Ste 8, Neptune City, NJ 07753",headgear,unitedhealthcare
+Pediatric Dentist,"891 Mountain Ave Suite 310, New Providence, NJ 07974",expanders,unitedhealthcare
+Pediatric Dentist,"502 Springfield Ave, Berkeley Heights, NJ 07922",palatal,unitedhealthcare
+Pediatric Dentist,"5 Atno Ave, Morristown, NJ 07960",clear aligners,unitedhealthcare
+Pediatric Dentist,"1357 15th St, Fort Lee, NJ 07024",braces,metroplus
+Pediatric Dentist,"1822 Corlies Ave Ste 8, Neptune City, NJ 07753",headgear,metroplus
+Pediatric Dentist,"892 Mountain Ave Suite 310, New Providence, NJ 07974",expanders,metroplus
+Pediatric Dentist,"503 Springfield Ave, Berkeley Heights, NJ 07922",palatal,metroplus
+Pediatric Dentist,"6 Atno Ave, Morristown, NJ 07960",clear aligners,metroplus
+Periodontist,"1355 15th St, Fort Lee, NJ 07024",blooding gum,healthfirst
+Periodontist,"133 Franklin Corner Rd # 9, Lawrenceville, NJ 08648",blooding gum,healthfirst
+Periodontist,"1357 15th St, Fort Lee, NJ 07024",blooding gum,healthfirst
+Periodontist,"2103 Whitehorse Mercerville Rd, Hamilton Township, NJ 08619",blooding gum,healthfirst
+Periodontist,"1359 15th St, Fort Lee, NJ 07024",blooding gum,unitedhealthcare
+Periodontist,"1 Union St # 205, Robbinsville Twp, NJ 08691",blooding gum,unitedhealthcare
+Periodontist,"34 Franklin Corner Rd, Lawrence Township, NJ 08648",blooding gum,unitedhealthcare
+Periodontist,"1362 15th St, Fort Lee, NJ 07024",blooding gum,unitedhealthcare
+Periodontist,"18 Centre Dr Suite 202, Monroe Township, NJ 08831",blooding gum,metroplus
+Periodontist,"1700 Whitehorse Hamilton Square Rd D-3, Hamilton Square, NJ 08690",blooding gum,metroplus
+Periodontist,"1365 15th St, Fort Lee, NJ 07024",blooding gum,metroplus
+Periodontist,"1600 Perrineville Rd # D, Monroe Township, NJ 08831",blooding gum,metroplus
+Periodontist,"1357 15th St, Fort Lee, NJ 07024",blooding gum,metroplus
+Prosthodontist,"5918 Bergenline Ave #200, West New York, NJ 07093",dentures,healthfirst
+Prosthodontist,"124 E 48th St, New York, NY 10017",porcelain veneers,healthfirst
+Prosthodontist,"6408 Bergenline Ave Ste 2, West New York, NJ 07093",crowns,healthfirst
+Prosthodontist,"42-09 Broadway, Astoria, NY 11103",dental implants,healthfirst
+Prosthodontist,"720 US-202 Bldg 2, Bridgewater Township, NJ 08807",fixed bridges,healthfirst
+Prosthodontist,"5919 Bergenline Ave #200, West New York, NJ 07093",dentures,unitedhealthcare
+Prosthodontist,"125 E 48th St, New York, NY 10017",porcelain veneers,unitedhealthcare
+Prosthodontist,"6409 Bergenline Ave Ste 2, West New York, NJ 07093",crowns,unitedhealthcare
+Prosthodontist,"42-09 Broadway, Astoria, NY 11104",dental implants,unitedhealthcare
+Prosthodontist,"721 US-202 Bldg 2, Bridgewater Township, NJ 08807",fixed bridges,unitedhealthcare
+Prosthodontist,"5920 Bergenline Ave #200, West New York, NJ 07093",dentures,metroplus
+Prosthodontist,"126 E 48th St, New York, NY 10017",porcelain veneers,metroplus
+Prosthodontist,"6410 Bergenline Ave Ste 2, West New York, NJ 07093",crowns,metroplus
+Prosthodontist,"42-09 Broadway, Astoria, NY 11105",dental implants,metroplus
+Prosthodontist,"722 US-202 Bldg 2, Bridgewater Township, NJ 08807",fixed bridges,metroplus

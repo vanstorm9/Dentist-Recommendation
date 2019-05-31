@@ -11,21 +11,12 @@ import string
 import heapq 
 
 
-
 complaintSubPath = 'complaintMain/'
-
-
 
 
 def removeStopWords(wordList):
     return [word for word in wordList if word not in stopwords.words('english')]
 
-# DO NOT USE
-def calcCosSimOld(aMat,bVec):
-    # Calculate cosine simularity
-    a = np.sum(aMat,axis=0)/aMat.shape[0]
-    b = bVec.copy()
-    return np.dot(a,b)/(np.linalg.norm(a)*np.linalg.norm(b))
 
 def calcCosSim(a,b):
     # Calculate cosine simularity
@@ -41,15 +32,19 @@ def removeStem(sentence):
 
 
 
-def textFreqCal(topNRankNum,splitNum,rootPath):
+def recommendDoctor(topNRankNum,splitNum,rootPath):
     contractPath = rootPath + 'termService/' + '0.txt'
     print(rootPath + complaintSubPath)
     contractTxtOrg = open(contractPath, encoding="utf8", errors='ignore').read()
     contractTxt = contractTxtOrg
     contractVec = removeStopWords([removeStem(contractTxt)])
 
+
+
+
     vec = CountVectorizer()
     contractFreq = vec.fit_transform(contractVec)
+
 
 
     compList = []
@@ -89,12 +84,13 @@ def textFreqCal(topNRankNum,splitNum,rootPath):
         complainVec = combinedDf.iloc[0].values
         contractVec = combinedDf.iloc[1].values
 
+        # Now we calculate cosine simularity and append these values
         simRes = calcCosSim(complainVec,contractVec)
         resPara.append(paragraph)
         resScore.append(simRes)
 
 
-
+    # Now we calculate the top rank
 
     rankAr = np.asarray(resPara).argsort()[::-1][:topNRankNum]
 

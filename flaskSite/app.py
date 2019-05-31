@@ -1,6 +1,6 @@
 # import the Flask class from the flask module
 from flask import Flask, render_template, request
-from support.textFreq import textFreqCal
+from support.textFreq import recommendDoctor
 
 # create the application object
 app = Flask(__name__)
@@ -35,7 +35,7 @@ def dentistRecommend():
 
 
 
-    resText,resRank, mainContract = textFreqCal(topNRankNum,splitNum,contractDir)
+    resText,resRank, mainContract = recommendDoctor(topNRankNum,splitNum,contractDir)
 
 
     return render_template('dentistRecommend.html', **locals())
