@@ -10,8 +10,7 @@ import string
 
 import heapq 
 
-
-complaintSubPath = 'complaintMain/'
+doctorData = './data/data_hack.csv'
 
 
 def removeStopWords(wordList):
@@ -32,86 +31,64 @@ def removeStem(sentence):
 
 
 
-def recommendDoctor(topNRankNum,splitNum,rootPath):
-    contractPath = rootPath + 'termService/' + '0.txt'
-    print(rootPath + complaintSubPath)
-    contractTxtOrg = open(contractPath, encoding="utf8", errors='ignore').read()
-    contractTxt = contractTxtOrg
-    contractVec = removeStopWords([removeStem(contractTxt)])
-
-
-
-
-    vec = CountVectorizer()
-    contractFreq = vec.fit_transform(contractVec)
-
-
-
-    compList = []
-
-    # Used for removing stem from words
-    for cFilePath in os.listdir(rootPath + complaintSubPath):
-        cFilePath = rootPath + complaintSubPath + cFilePath
-        cFileTxt = open(cFilePath, encoding="utf8", errors='ignore').read()
-
-        cFileTxt = removeStem(cFileTxt)
-        
-        compList.append(cFileTxt + ' ')
-        
-
-    compList = [''.join(str(v) for v in compList)]  # We are combining all complaints into one
-    complantCnt = CountVectorizer()
-    a = complantCnt.fit_transform(compList)
-
-    resPara = []
-    resScore = []
-
+def recommendDoctor(searchQuery,topNNum):
     
-    #for paragraph in contractTxt.split('\n'):
-    for paragraph in [contractTxt[i:i+splitNum] for i in range(0, len(contractTxt), splitNum)]:
-        paragraph = paragraph.translate(string.punctuation)
+    df = pd.read_csv(doctorData)
 
+    doctorMainAr = df[['spec','treatment','insurance','dental clinic']].values
 
-        try:
-            vec = CountVectorizer()
-            contractFreq = vec.fit_transform([paragraph])
-        except:
-            continue
-        complaintDf = pd.DataFrame(a.toarray(),columns=complantCnt.get_feature_names())
-        contractDf = pd.DataFrame(contractFreq.toarray(),columns=vec.get_feature_names())
+    customerVec = removeStopWords([removeStem(searchQuery.lower())])
 
-        combinedDf = pd.concat([complaintDf, contractDf],sort=False).fillna(value=0.0)
-        complainVec = combinedDf.iloc[0].values
-        contractVec = combinedDf.iloc[1].values
+    # Preparing customer vector
+    vec = CountVectorizer()
+    customerFreq = vec.fit_transform(customerVec)
+    customerDf = pd.DataFrame(customerFreq.toarray(),columns=vec.get_feature_names())
 
-        # Now we calculate cosine simularity and append these values
-        simRes = calcCosSim(complainVec,contractVec)
-        resPara.append(paragraph)
+    resScore = []
+    #resPara = []
+
+    for i in range(0,len(doctorMainAr)):
+        doctorStr = doctorMainAr[i][0] + ' ' + doctorMainAr[i][1] + ' ' + doctorMainAr[i][2]
+        doctorVec = removeStopWords([removeStem(doctorStr.lower())])
+        
+        # Prepare to doctor vector to combine vector
+        doctorFreq = vec.fit_transform(doctorVec)
+        doctorDf = pd.DataFrame(doctorFreq.toarray(),columns=vec.get_feature_names())
+        
+        # Combine vectors
+        combinedDf = pd.concat([customerDf, doctorDf],sort=False).fillna(value=0.0)
+        customerVec = combinedDf.iloc[0].values
+        doctorVec = combinedDf.iloc[1].values
+        
+        # Preform cosine simularity
+        simRes = calcCosSim(customerVec,doctorVec)
+        
+        # Appending results
         resScore.append(simRes)
+        #resPara.append(doctorStr)
 
 
-    # Now we calculate the top rank
-
-    rankAr = np.asarray(resPara).argsort()[::-1][:topNRankNum]
-
+    rankAr = np.asarray(resScore).argsort()[::-1][:]
     heapLi = []
-
 
     for ind in rankAr:    
         heapq.heappush(heapLi,[-resScore[ind],ind])
-    
-    resText = []
-    resRank = []
+       
 
-    while len(heapLi) > 0:
+    resAr  = [] 
+    i = 0
+    while len(heapLi) > 0 and i < topNNum:
         score,ind = heapq.heappop(heapLi)
         score = score*-1
         
-        resText.append(resPara[ind])
-        resRank.append(score)
+        if score < 0.01:
+          # Results from now on are not relevent
+          break
+        
+        resAr.append([doctorMainAr[ind]][0])
 
 
-    return resText,resRank, contractTxtOrg.split('\n')
+    return resAr
 
 
 

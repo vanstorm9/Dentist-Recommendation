@@ -14,29 +14,20 @@ def home():
 @app.route('/dentistRecommend',methods=['POST','GET'])
 def dentistRecommend():
 
-  
-    topNRankNum = 5
-    splitNum = 300
-    contractDir = './company0/'
-
+    searchQuery = ''
     if request.method == 'POST':
         #searchQuery = request.args.get('search',None)
         searchQuery = request.form['search']
         print(searchQuery)
-    
 
-    topNRankNum  = request.args.get('top',None)
 
-    if topNRankNum is None:
-        topNRankNum = 5
-
-    
+    topNRankNum = 20
 
 
 
 
-    resText,resRank, mainContract = recommendDoctor(topNRankNum,splitNum,contractDir)
-
+    resAr = recommendDoctor(searchQuery,topNRankNum)
+    print('Length is : ', len(resAr))
 
     return render_template('dentistRecommend.html', **locals())
 

@@ -60,9 +60,21 @@
 
 
 
-      <p class="lead">
-        {% for text in resText %}
-          <p style='border: 1px solid black; padding:10px;'>. . . {{ text }} . . .</p>
+      <p class="lead" style="width:90%">
+        {% for spec,treatment,insurance,address in resAr %}
+
+            <table style='border: 1px solid black; padding:10px; width:100%'>
+              <tr>
+                <td>Title: {{ spec.capitalize()  }}</td>
+                <td>Specializes in: {{ treatment.capitalize()  }}</td>
+              </tr>
+              <tr>
+                <td>Covers: {{ insurance.capitalize()  }}</td>
+                <td>Office Location: {{ address.capitalize()  }} </td>
+              </tr>
+            </table>
+            <br><br>
+
         {% endfor %}
 
       </p>
