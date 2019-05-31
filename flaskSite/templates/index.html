@@ -51,9 +51,7 @@ body {font-size:16px;}
     <h3 class="w3-padding-64"><b>Dentist Recommender</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Dentist Comments</a>
-    <a href="http://localhost:5000/dentistRecommend" class="w3-bar-item w3-button w3-hover-white">View Dentist Recommendations</a>
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">What is this?</a>
   </div>
 </nav>
 
@@ -70,16 +68,12 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
+  <!--
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-jumbo"><b>Dentist Search Engine</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
+   
   </div>
-  
-  <!-- Photo grid (modal) -->
-    <h3>
-    Search Engine for the best dentist for your needs
-    </h3> 
+  -->
 
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
@@ -89,27 +83,40 @@ body {font-size:16px;}
       <p id="caption"></p>
     </div>
   </div>
-  
+  <br><br><br><br><br><br>
   <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Find the perfect dentist</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>What troubles are you having?</p>
-    <form method="POST" action="http://localhost:5000/dentistRecommend">
-      <div class="w3-section">
-        <input class="w3-input w3-border" type="text" name="search" required placeholder="(Example:) I am suffering from . . .">
-      </div>
+  <center>
+    <div class="w3-container" id="contact" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Find the perfect dentist</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p>What troubles are you having?</p>
+      <form method="POST" action="http://localhost:5000/dentistRecommend">
+        <div class="w3-section">
+          <input class="w3-input w3-border" type="text" name="search" required placeholder="(Example:) I am suffering from . . .">
+        </div>
 
-      <input type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</input>
-    </form>
-  </div>
-
+        <input type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</input>
+      </form>
+    </div>
+  </center>
 
   <div class="alert" id="alertT" name="alertT" style="display:none;">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
   <strong>Success!</strong> Your complaint has been successfully submitted 
 </div>
 
+
+
+<br><br><br><br><br><br><br><br><br><br>
+   <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h3>
+    Search Engine for the best dentist for your needs
+    </h3> 
+    Every tried looking for the dentist for your needs? Tired of trying to fight with Google to find that dentist who covers your health insurance? We know, we got you covered.
+  </div>
+<br><br><br><br><br>
 <!-- End page content -->
 </div>
 
