@@ -21,13 +21,12 @@ def dentistRecommend():
         print(searchQuery)
 
 
-    topNRankNum = 20
+    topNRankNum = 100
 
 
 
 
     resAr = recommendDoctor(searchQuery,topNRankNum)
-    print('Length is : ', len(resAr))
 
     return render_template('dentistRecommend.html', **locals())
 

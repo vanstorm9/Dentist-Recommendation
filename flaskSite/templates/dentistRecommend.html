@@ -61,7 +61,7 @@
 
 
       <p class="lead" style="width:90%">
-        {% for spec,treatment,insurance,address in resAr %}
+        {% for spec,treatment,insurance,address,lang,phone,review in resAr %}
 
             <table style='border: 1px solid black; padding:10px; width:100%'>
               <tr >
@@ -71,6 +71,14 @@
               <tr >
                 <td style="width:400px;padding:10px; ">Covers: {{ insurance.capitalize()  }}</td>
                 <td>Office Location: {{ address.capitalize()  }} </td>
+              </tr>
+              <tr >
+                <td style="width:400px;padding:10px; ">Language: {{ lang.capitalize()  }}</td>
+                <td>Phone Number: {{ phone  }} </td>
+              </tr>
+              <tr>
+                <td style="width:400px;padding:10px; ">Trending Review: {{ review }}</td>
+                <td></td>
               </tr>
             </table>
             <br><br>

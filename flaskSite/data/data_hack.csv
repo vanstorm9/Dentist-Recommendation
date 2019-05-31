@@ -1,77 +1,77 @@
-spec,dental clinic,treatment,insurance
-Endodontist,"1355 15th St, Fort Lee, NJ 07024",root canal,healthfirst
-Endodontist,"2999 Princeton Pike #4, Lawrenceville, NJ 08648",root canal,unitedhealthcare
-Endodontist,"1357 15th St, Fort Lee, NJ 07024",root canal,healthfirst
-Endodontist,"12 Roszel Rd, Princeton, NJ 08540",root canal,unitedhealthcare
-Endodontist,"1359 15th St, Fort Lee, NJ 07024",root canal,healthfirst
-Endodontist,"1354 15th St, Fort Lee, NJ 07024",root canal,metroplus
-Endodontist,"2999 Princeton Pike # 4, Lawrenceville, NJ 08648",root canal,metroplus
-Endodontist,"1356 15th St, Fort Lee, NJ 07024",root canal,metroplus
-Endodontist,"515 Madison Ave #3303, New York, NY 10022",root canal,metroplus
-Endodontist,"601 Ewing St, Princeton, NJ 08540",root canal,metroplus
-Oral surgery specialist,"17 S Warren St, Dover, NJ 07801",cleft palate surgery,healthfirst
-Oral surgery specialist,"720 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions,healthfirst
-Oral surgery specialist,"1 Bay Ave, Montclair, NJ 07042",corrective jaw surgery,healthfirst
-Oral surgery specialist,"361 NJ-31 #701, Flemington, NJ 08822",cleft lip,healthfirst
-Oral surgery specialist,"18 S Warren St, Dover, NJ 07801",cleft palate surgery,unitedhealthcare
-Oral surgery specialist,"721 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions,unitedhealthcare
-Oral surgery specialist,"2 Bay Ave, Montclair, NJ 07042",corrective jaw surgery,unitedhealthcare
-Oral surgery specialist,"362 NJ-31 #701, Flemington, NJ 08822",cleft lip,metroplus
-Oral surgery specialist,"19 S Warren St, Dover, NJ 07801",cleft palate surgery,metroplus
-Oral surgery specialist,"722 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions,metroplus
-Oral surgery specialist,"3 Bay Ave, Montclair, NJ 07042",corrective jaw surgery,metroplus
-Oral surgery specialist,"363 NJ-31 #701, Flemington, NJ 08822",cleft lip,metroplus
-Orthodontist,"40th St #105, New York, NY 10016",teeth alignment,healthfirst
-Orthodontist,"319 US-130 #14, East Windsor, NJ 08520",teeth alignment,unitedhealthcare
-Orthodontist,"42nd St #105, New York, NY 10016",teeth alignment,healthfirst
-Orthodontist,"43rd St #105, New York, NY 10016",teeth alignment,unitedhealthcare
-Orthodontist,"44th St #105, New York, NY 10016",teeth alignment,healthfirst
-Orthodontist,"37th St #105, New York, NY 10016",teeth alignment,metroplus
-Orthodontist,"38th St #105, New York, NY 10016",teeth alignment,metroplus
-Orthodontist,"2 Tree Farm Rd Suite B-200, Pennington, NJ 08534",teeth alignment,metroplus
-Orthodontist,"40th St #105, New York, NY 10016",teeth alignment,metroplus
-Orthodontist,"41st St #105, New York, NY 10016",teeth alignment,metroplus
-Orthodontist,"1140 US-130 #6, Robbinsville Twp, NJ 08691",teeth alignment,metroplus
-Pediatric Dentist,"1355 15th St, Fort Lee, NJ 07024",braces,healthfirst
-Pediatric Dentist,"1820 Corlies Ave Ste 8, Neptune City, NJ 07753",headgear,healthfirst
-Pediatric Dentist,"890 Mountain Ave Suite 310, New Providence, NJ 07974",expanders,healthfirst
-Pediatric Dentist,"501 Springfield Ave, Berkeley Heights, NJ 07922",palatal,healthfirst
-Pediatric Dentist,"4 Atno Ave, Morristown, NJ 07960",clear aligners,healthfirst
-Pediatric Dentist,"1356 15th St, Fort Lee, NJ 07024",braces,unitedhealthcare
-Pediatric Dentist,"1821 Corlies Ave Ste 8, Neptune City, NJ 07753",headgear,unitedhealthcare
-Pediatric Dentist,"891 Mountain Ave Suite 310, New Providence, NJ 07974",expanders,unitedhealthcare
-Pediatric Dentist,"502 Springfield Ave, Berkeley Heights, NJ 07922",palatal,unitedhealthcare
-Pediatric Dentist,"5 Atno Ave, Morristown, NJ 07960",clear aligners,unitedhealthcare
-Pediatric Dentist,"1357 15th St, Fort Lee, NJ 07024",braces,metroplus
-Pediatric Dentist,"1822 Corlies Ave Ste 8, Neptune City, NJ 07753",headgear,metroplus
-Pediatric Dentist,"892 Mountain Ave Suite 310, New Providence, NJ 07974",expanders,metroplus
-Pediatric Dentist,"503 Springfield Ave, Berkeley Heights, NJ 07922",palatal,metroplus
-Pediatric Dentist,"6 Atno Ave, Morristown, NJ 07960",clear aligners,metroplus
-Periodontist,"1355 15th St, Fort Lee, NJ 07024",blooding gum,healthfirst
-Periodontist,"133 Franklin Corner Rd # 9, Lawrenceville, NJ 08648",blooding gum,healthfirst
-Periodontist,"1357 15th St, Fort Lee, NJ 07024",blooding gum,healthfirst
-Periodontist,"2103 Whitehorse Mercerville Rd, Hamilton Township, NJ 08619",blooding gum,healthfirst
-Periodontist,"1359 15th St, Fort Lee, NJ 07024",blooding gum,unitedhealthcare
-Periodontist,"1 Union St # 205, Robbinsville Twp, NJ 08691",blooding gum,unitedhealthcare
-Periodontist,"34 Franklin Corner Rd, Lawrence Township, NJ 08648",blooding gum,unitedhealthcare
-Periodontist,"1362 15th St, Fort Lee, NJ 07024",blooding gum,unitedhealthcare
-Periodontist,"18 Centre Dr Suite 202, Monroe Township, NJ 08831",blooding gum,metroplus
-Periodontist,"1700 Whitehorse Hamilton Square Rd D-3, Hamilton Square, NJ 08690",blooding gum,metroplus
-Periodontist,"1365 15th St, Fort Lee, NJ 07024",blooding gum,metroplus
-Periodontist,"1600 Perrineville Rd # D, Monroe Township, NJ 08831",blooding gum,metroplus
-Periodontist,"1357 15th St, Fort Lee, NJ 07024",blooding gum,metroplus
-Prosthodontist,"5918 Bergenline Ave #200, West New York, NJ 07093",dentures,healthfirst
-Prosthodontist,"124 E 48th St, New York, NY 10017",porcelain veneers,healthfirst
-Prosthodontist,"6408 Bergenline Ave Ste 2, West New York, NJ 07093",crowns,healthfirst
-Prosthodontist,"42-09 Broadway, Astoria, NY 11103",dental implants,healthfirst
-Prosthodontist,"720 US-202 Bldg 2, Bridgewater Township, NJ 08807",fixed bridges,healthfirst
-Prosthodontist,"5919 Bergenline Ave #200, West New York, NJ 07093",dentures,unitedhealthcare
-Prosthodontist,"125 E 48th St, New York, NY 10017",porcelain veneers,unitedhealthcare
-Prosthodontist,"6409 Bergenline Ave Ste 2, West New York, NJ 07093",crowns,unitedhealthcare
-Prosthodontist,"42-09 Broadway, Astoria, NY 11104",dental implants,unitedhealthcare
-Prosthodontist,"721 US-202 Bldg 2, Bridgewater Township, NJ 08807",fixed bridges,unitedhealthcare
-Prosthodontist,"5920 Bergenline Ave #200, West New York, NJ 07093",dentures,metroplus
-Prosthodontist,"126 E 48th St, New York, NY 10017",porcelain veneers,metroplus
-Prosthodontist,"6410 Bergenline Ave Ste 2, West New York, NJ 07093",crowns,metroplus
-Prosthodontist,"42-09 Broadway, Astoria, NY 11105",dental implants,metroplus
-Prosthodontist,"722 US-202 Bldg 2, Bridgewater Township, NJ 08807",fixed bridges,metroplus
+spec,dental clinic,treatment,insurance,language,phone,review
+Endodontist,"1355 15th St, Fort Lee, NJ 07024",root canal,healthfirst,spanish,(609) 474-8080,"If I did need one, I would not hesitate to call Dr. Bui. :D"
+Endodontist,"2999 Princeton Pike #4, Lawrenceville, NJ 08648",root canal,unitedhealthcare,chinese,(609) 587-0001,"Trust his ""Golden Hands"" and you wont leave disappointed :)"
+Endodontist,"1357 15th St, Fort Lee, NJ 07024",root canal,healthfirst,korean,(609) 454-6788,I highly recommend Dr Bui and his team if ever need a root canal or whatever other services they offer.
+Endodontist,"12 Roszel Rd, Princeton, NJ 08540",root canal,unitedhealthcare,arabic,(609) 228-3200,Dr Bui was very friendly and very helpful with any follow up questions I had. e.g. I had a lot of pain due to my infection before I had my treatment and he took the time to prescribe the right pain meds for me and advised on next steps and healing process. 
+Endodontist,"1359 15th St, Fort Lee, NJ 07024",root canal,healthfirst,spanish,(609) 509-4090,"He tried to numb me and I told him from the beginning that the numbing takes longer in my system for some reason, and he acknowledged it and told me it was ok, after he injected me, he didn't wait not even 15 minutes and then told me he wouldn't have enough time to do it and he sent me home with half my face numb without any work done. Really ridiculous. And on top of that he TRIED to charge me for that. He is the WORST. Do NOT ever take him."
+Endodontist,"1354 15th St, Fort Lee, NJ 07024",root canal,metroplus,chinese,(609) 587-0002,Dr Bui was the worst dental experience I've ever had
+Endodontist,"2999 Princeton Pike # 4, Lawrenceville, NJ 08648",root canal,metroplus,japanese,(609) 454-6789,
+Endodontist,"1356 15th St, Fort Lee, NJ 07024",root canal,metroplus,spanish|portuguese,(609) 228-3201,
+Endodontist,"515 Madison Ave #3303, New York, NY 10022",root canal,metroplus|healthfirst,spanish,(609) 509-4091,
+Endodontist,"601 Ewing St, Princeton, NJ 08540",root canal,metroplus,spanish,(609) 587-0003,
+Oral surgery specialist,"17 S Warren St, Dover, NJ 07801",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,healthfirst,french,(609) 454-6790,
+Oral surgery specialist,"720 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,healthfirst,hindi,(609) 228-3202,
+Oral surgery specialist,"1 Bay Ave, Montclair, NJ 07042",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,healthfirst,italian,(609) 509-4092,I highly recommend for families in the area to come and bring your kids to Kids Smile
+Oral surgery specialist,"361 NJ-31 #701, Flemington, NJ 08822",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,healthfirst|metroplus,chinese,(609) 587-0004,
+Oral surgery specialist,"18 S Warren St, Dover, NJ 07801",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,unitedhealthcare,chinese,(609) 454-6791,
+Oral surgery specialist,"721 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,unitedhealthcare,chinese,(609) 228-3203,
+Oral surgery specialist,"2 Bay Ave, Montclair, NJ 07042",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,unitedhealthcare,spanish,(609) 509-4093,
+Oral surgery specialist,"362 NJ-31 #701, Flemington, NJ 08822",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,metroplus,portuguese,(609) 587-0005,
+Oral surgery specialist,"19 S Warren St, Dover, NJ 07801",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,metroplus|unitedhealthcare,spanish,(609) 454-6792,
+Oral surgery specialist,"722 US-202 Bldg 2, Bridgewater Township, NJ 08807",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,metroplus,chinese,(609) 228-3204,
+Oral surgery specialist,"3 Bay Ave, Montclair, NJ 07042",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,metroplus,korean,(609) 509-4094,
+Oral surgery specialist,"363 NJ-31 #701, Flemington, NJ 08822",tooth extractions|corrective jaw surgery|cleft lip|cleft palate surgery,metroplus,arabic|portuguese,(609) 587-0006,
+Orthodontist,"40th St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,healthfirst,spanish,(609) 454-6793,
+Orthodontist,"319 US-130 #14, East Windsor, NJ 08520",Crooked teeth|over bite|under bite|cross bite,unitedhealthcare|metroplus,chinese,(609) 228-3205,
+Orthodontist,"42nd St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,healthfirst,japanese,(609) 509-4095,
+Orthodontist,"43rd St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,unitedhealthcare,spanish,(609) 509-4090,
+Orthodontist,"44th St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,healthfirst,spanish,(609) 631-5524,
+Orthodontist,"37th St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,metroplus,spanish,(609) 890-0810,
+Orthodontist,"38th St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,metroplus,french,(609) 631-3531,
+Orthodontist,"2 Tree Farm Rd Suite B-200, Pennington, NJ 08534",Crooked teeth|over bite|under bite|cross bite,metroplus,hindi,(609) 587-0002,
+Orthodontist,"40th St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,metroplus,italian,(609) 454-6789,
+Orthodontist,"41st St #105, New York, NY 10016",Crooked teeth|over bite|under bite|cross bite,metroplus,chinese,(609) 228-3201,
+Orthodontist,"1140 US-130 #6, Robbinsville Twp, NJ 08691",Crooked teeth|over bite|under bite|cross bite,metroplus,chinese,(609) 509-4091,
+Pediatric Dentist,"1355 15th St, Fort Lee, NJ 07024",oral development|care of children,healthfirst,chinese,(609) 587-0003,
+Pediatric Dentist,"1820 Corlies Ave Ste 8, Neptune City, NJ 07753",oral development|care of children,healthfirst|metroplus,spanish,(609) 454-6790,
+Pediatric Dentist,"890 Mountain Ave Suite 310, New Providence, NJ 07974",oral development|care of children,healthfirst,portuguese,(609) 228-3202,
+Pediatric Dentist,"501 Springfield Ave, Berkeley Heights, NJ 07922",oral development|care of children,healthfirst,spanish,(609) 509-4092,Please don't subject your babies to this practice when there are so many other available options.
+Pediatric Dentist,"4 Atno Ave, Morristown, NJ 07960",oral development|care of children,healthfirst,chinese|korean,(609) 587-0004,
+Pediatric Dentist,"1356 15th St, Fort Lee, NJ 07024",oral development|care of children,unitedhealthcare,korean,(609) 454-6791,
+Pediatric Dentist,"1821 Corlies Ave Ste 8, Neptune City, NJ 07753",oral development|care of children,unitedhealthcare,arabic,(609) 228-3203,
+Pediatric Dentist,"891 Mountain Ave Suite 310, New Providence, NJ 07974",oral development|care of children,unitedhealthcare,spanish,(609) 509-4093,
+Pediatric Dentist,"502 Springfield Ave, Berkeley Heights, NJ 07922",oral development|care of children,unitedhealthcare,chinese,(609) 587-0005,
+Pediatric Dentist,"5 Atno Ave, Morristown, NJ 07960",oral development|care of children,unitedhealthcare,japanese,(609) 454-6792,
+Pediatric Dentist,"1357 15th St, Fort Lee, NJ 07024",oral development|care of children,metroplus|unitedhealthcare,spanish,(609) 228-3204,
+Pediatric Dentist,"1822 Corlies Ave Ste 8, Neptune City, NJ 07753",oral development|care of children,metroplus,spanish,(609) 509-4094,
+Pediatric Dentist,"892 Mountain Ave Suite 310, New Providence, NJ 07974",oral development|care of children,metroplus,spanish,(609) 587-0006,
+Pediatric Dentist,"503 Springfield Ave, Berkeley Heights, NJ 07922",oral development|care of children,metroplus,french,(609) 454-6793,
+Pediatric Dentist,"6 Atno Ave, Morristown, NJ 07960",oral development|care of children,metroplus,hindi,(609) 228-3205,
+Periodontist,"1355 15th St, Fort Lee, NJ 07024",gum disease,healthfirst,italian,(609) 509-4095,
+Periodontist,"133 Franklin Corner Rd # 9, Lawrenceville, NJ 08648",gum disease,healthfirst,chinese,(609) 587-0007,
+Periodontist,"1357 15th St, Fort Lee, NJ 07024",gum disease,healthfirst,chinese,(609) 454-6794,
+Periodontist,"2103 Whitehorse Mercerville Rd, Hamilton Township, NJ 08619",gum disease,healthfirst,chinese,(609) 228-3206,
+Periodontist,"1359 15th St, Fort Lee, NJ 07024",gum disease,unitedhealthcare,spanish,(609) 509-4085,
+Periodontist,"1 Union St # 205, Robbinsville Twp, NJ 08691",gum disease,unitedhealthcare,portuguese,(609) 509-4080,
+Periodontist,"34 Franklin Corner Rd, Lawrence Township, NJ 08648",gum disease,unitedhealthcare,spanish,(609) 631-5525,All procedures and options were explained to me in full detail and I will be making this my preferred Dental group.
+Periodontist,"1362 15th St, Fort Lee, NJ 07024",gum disease,unitedhealthcare,chinese,(609) 890-0811,
+Periodontist,"18 Centre Dr Suite 202, Monroe Township, NJ 08831",gum disease,metroplus,korean,(609) 631-3532,
+Periodontist,"1700 Whitehorse Hamilton Square Rd D-3, Hamilton Square, NJ 08690",gum disease,metroplus,arabic,(609) 587-0003,
+Periodontist,"1365 15th St, Fort Lee, NJ 07024",gum disease,metroplus,spanish,(609) 454-6790,
+Periodontist,"1600 Perrineville Rd # D, Monroe Township, NJ 08831",gum disease,metroplus|healthfirst,chinese,(609) 228-3202,
+Periodontist,"1357 15th St, Fort Lee, NJ 07024",gum disease,metroplus,japanese,(609) 509-4092,
+Prosthodontist,"5918 Bergenline Ave #200, West New York, NJ 07093",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,healthfirst,spanish,(609) 587-0004,
+Prosthodontist,"124 E 48th St, New York, NY 10017",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,healthfirst,spanish,(609) 454-6791,
+Prosthodontist,"6408 Bergenline Ave Ste 2, West New York, NJ 07093",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,healthfirst,spanish,(609) 228-3203,
+Prosthodontist,"42-09 Broadway, Astoria, NY 11103",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,healthfirst,french,(609) 509-4093,
+Prosthodontist,"720 US-202 Bldg 2, Bridgewater Township, NJ 08807",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,healthfirst,hindi,(609) 587-0005,
+Prosthodontist,"5919 Bergenline Ave #200, West New York, NJ 07093",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,unitedhealthcare|healthfirst,italian|french,(609) 454-6792,
+Prosthodontist,"125 E 48th St, New York, NY 10017",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,unitedhealthcare,chinese|korean,(609) 228-3204,
+Prosthodontist,"6409 Bergenline Ave Ste 2, West New York, NJ 07093",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,unitedhealthcare,chinese,(609) 509-4094,
+Prosthodontist,"42-09 Broadway, Astoria, NY 11104",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,unitedhealthcare,chinese,(609) 587-0006,"He answered all of my (many, many) questions patiently and never made me feel rushed."
+Prosthodontist,"721 US-202 Bldg 2, Bridgewater Township, NJ 08807",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,unitedhealthcare,spanish,(609) 454-6793,
+Prosthodontist,"5920 Bergenline Ave #200, West New York, NJ 07093",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,metroplus,portuguese,(609) 228-3205,
+Prosthodontist,"126 E 48th St, New York, NY 10017",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,metroplus,spanish,(609) 509-4095,"Please don't go to this dr, he claims he is prosthodontist but is ignorant on how restorations can interfere with jaw and tongue function."
+Prosthodontist,"6410 Bergenline Ave Ste 2, West New York, NJ 07093",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,metroplus,chinese,(609) 587-0007,
+Prosthodontist,"42-09 Broadway, Astoria, NY 11105",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,metroplus|unitedhealthcare,korean,(609) 454-6794,
+Prosthodontist,"722 US-202 Bldg 2, Bridgewater Township, NJ 08807",porcelain veneers|crowns|dental implants|fixed bridges|dentures|teeth reconstruction,metroplus,arabic,(609) 228-3206,
